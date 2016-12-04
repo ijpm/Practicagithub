@@ -1,13 +1,15 @@
 #¿Qué comando utilizaste en el paso 11? ¿Por qué?
 >Utilizé el comando git reset --hard HEAD~1 porque con colocar el puntero en el
 commit padre (HEAD~1) e indicarle que me modifique mi working copy (--hard) 
-obtengo el resultado que se me indicaba.  
+obtengo el resultado que se me indicaba.
+  
 #¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 >Me dispuse a utilizar el mismo comando que en el paso numero 11, solo que esa vez
 en vez de hacer referencia al commit padre, hice referencia a la referencia
 corta del commit que realizamos para poner estilos al git-nuestro.md.
 Tanto el commit que necesitaba como la referencia al mismo la obtuve usando el 
-comando "git reflog"  
+comando "git reflog"
+  
 #El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 >No causó ningún conflicto porque el único commit de la rama master ya lo teníamos
 también el la rama styled.  
