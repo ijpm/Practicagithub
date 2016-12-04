@@ -1,5 +1,5 @@
 #¿Qué comando utilizaste en el paso 11? ¿Por qué?
->Utilizé el comando git reset --hard HEAD~1 porque con colocar el puntero en el
+>Utilicé el comando git reset --hard HEAD~1 porque con colocar el puntero en el
 commit padre (HEAD~1) e indicarle que me modifique mi working copy (--hard) 
 obtengo el resultado que se me indicaba.
   
@@ -26,7 +26,7 @@ quedandonos con lo que habia en styled resulta que en realidad el archivo era id
 tanto en styled como en master). 
  
 #¿Qué comando o comandos utilizaste en el paso 25?
->Utilizé el comando "git log --graph" para poder ver los nodos dibujados en la 
+>Utilicé el comando "git log --graph" para poder ver los nodos dibujados en la 
 consola y así "dibujar el esquema".  
 
 #El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
@@ -35,13 +35,13 @@ master al mismo commit que el puntero title y todos los commits anteriores eran
 iguales.  
 
 #¿Qué comando o comandos utilizaste en el paso 27?
->En ese caso utilizé el comando "git reset HEAD~1" pero desde la rama master.
+>En ese caso utilicé el comando "git reset HEAD~1" pero desde la rama master.
 Sin --hard para mantener cambios en el working copy y HEAD~1 desde master porque
 para deshacer este merge solamente necesitaba dejar el commit que generó al mergear
 inaccesible. 
  
 #¿Qué comando o comandos utilizaste en el paso 28?
->Utilizé el comando "git checkout -- git-nuestro.md" y este no tiene mucha explicación
+>Utilicé el comando "git checkout -- git-nuestro.md" y este no tiene mucha explicación
 simplemente descarta los cambios en este archivo.  
 
 #¿Qué comando o comandos utilizaste en el paso 29?
@@ -49,7 +49,7 @@ simplemente descarta los cambios en este archivo.
 la rama, tampoco es para explicar mucho aquí.   
  
 #¿Qué comando o comandos utilizaste en el paso 30?
->Utilizé el comando "git reset --hard 9114e5a" que me situaba el puntero master 
+>Utilicé el comando "git reset --hard 9114e5a" que me situaba el puntero master 
 y el puntero HEAD en el commit que creó el merge al absorver title desde master.
 La dirección a este commit la saqué del reflog.
 Al ubicarnos aquí, el commit vuelve a estar accesible y por tanto el merge queda
